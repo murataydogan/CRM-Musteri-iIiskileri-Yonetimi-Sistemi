@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-// Müşteri Destek Temsilcisi Yönlendirme Sınıfı
+
 class MusteriDestekYonlendirme {
     static int[][] musteriTalepleri;
     static int[] temsilciUygunluk;

@@ -5,7 +5,6 @@ public class CRMSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Müşteri Destek Temsilcisi Yönlendirme
         System.out.println("--- Müşteri Destek Temsilcisi Yönlendirme ---");
         System.out.print("Müşteri sayısını girin: ");
         MusteriDestekYonlendirme.musteriSayisi = scanner.nextInt();
@@ -32,8 +31,7 @@ public class CRMSystem {
 
         int maksimumDestekPuanı = MusteriDestekYonlendirme.temsilciAta();
         System.out.println("Maksimum Uygunluk Puanı (Destek): " + maksimumDestekPuanı);
-
-        // Pazarlama Kampanyası Seçimi
+        
         System.out.println("\n--- Pazarlama Kampanyası Seçimi ---");
         System.out.print("Kampanya sayısını girin: ");
         PazarlamaKampanyaSecimi.kampanyaSayisi = scanner.nextInt();
